@@ -1,0 +1,184 @@
+body{
+    background-attachment: fixed;
+    margin: 0;
+    display: block;
+    word-break: break-all;
+}
+html{
+    overflow-x: hidden;
+}
+header{
+    background-attachment: fixed;
+    /*opacity: 70%;*/
+border-style: solid;}
+img{
+    max-width:50%;
+    background-attachment: fixed;
+    width: 30%;
+    height: auto;
+border-style: solid;
+    margin: 5px;
+}
+aside{
+    background-attachment: fixed;
+border-style: solid;    height: auto;
+    /*float: right;*/
+    width: 100%;
+    text-align: center;
+    /*opacity: 70%;*/
+    margin: 5px 0px 0px 5px;
+    word-break: break-all;
+}
+section{
+border-style: solid;    background-attachment: fixed;
+    margin: 5px;
+    /*float: left;
+    width: 60%;*/
+    padding: 1% 1% 1% 1%;
+    /*opacity: 70%;*/
+}
+footer{
+border-style: solid;    background-attachment: fixed;
+    height: auto;
+    width: 97%;  
+    margin: 2px 0px 0px 4px;
+    float: left;
+    padding: 1% 1% 1% 1%;
+    /*opacity: 70%;*/
+}
+hr{
+    border: 0;
+    border-top: 2px solid red;
+    width: inherit;
+    height: auto;
+}
+h1, h2, h3{
+    text-align: center;
+    text-decoration-color: red;
+}
+p,a{
+    text-align: justify;
+    text-decoration-color: blue;
+}
+main {
+    display: flex;
+}
+main>section{
+    width: 70%;
+}
+@media screen and (max-width: 1125px){
+    header{
+        width: 97%;
+        margin: 1%;
+        
+    }
+
+    /*aside{
+        float: none;
+        width: 97%;
+        height: 20%;
+        margin: 1%; 
+    }*/
+
+    /*section{
+        width: 95%;
+        margin: 1%;
+    }*/
+    main{
+        display: block;
+        width: 100%;
+    }
+
+    aside{
+        width: 96%;
+        margin: 5px;
+        padding: 1% 1% 1% 1%;
+    }
+    main>section{
+        width: 96%;
+        margin: 5px;
+        padding: 1% 1% 1% 1%;
+    }
+    footer{
+        width: 95%;
+        margin: 1%;
+        
+    }
+    .foto_com_mouse {
+    width: 250px;
+    height: 250px;
+    transition: 0.3s;
+    }
+
+    .foto_sem_mouse {
+        width: 200px;
+        height: 200px;
+        transition: 0.3s;
+    }
+
+    .dark{
+        background-color: #000000;
+        color: #000;
+        transition: 1s;
+    }
+
+    .light {
+        background-color: #165fb1;
+        color: #000;
+        transition: 1s;
+
+    }
+    .controles{
+        text-align: center;
+        border-style: none;
+
+    }
+    #acender, #apagar {    
+    width:10%;
+    height:10%;  
+    cursor: pointer;
+    }
+
+}
+.foto_com_mouse {
+    max-width:70%;
+    background-attachment: fixed;
+    width: 50%;
+    height: auto;
+border-style: solid;    margin: 5px;
+    transition: 0.3s;
+}
+
+.foto_sem_mouse {
+    max-width:50%;
+    background-attachment: fixed;
+    width: 30%;
+    height: auto;
+border-style: solid;    margin: 5px;
+    transition: 0.3s;
+}
+
+.dark{
+    background-color: #000000;
+    color: white;
+    transition: 1s;
+    text-decoration-color: white;
+
+}
+
+.light {
+    background-color:white;
+    color: #000;
+    transition: 1s;
+
+}
+.controles{
+    text-align: center;
+    border-style: none;
+
+}
+#acender, #apagar {
+    width:20%;
+    height:20%;  
+    cursor: pointer;
+}
